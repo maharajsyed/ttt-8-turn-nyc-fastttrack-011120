@@ -52,6 +52,7 @@
       user_input = gets.strip
       index = input_to_index(user_input)
       if valid_move?(board, index)
+        move(board, index)
       elsif valid_move?(board, index) != true
         puts "Please enter valid option from 1-9"
         user_input = gets.strip

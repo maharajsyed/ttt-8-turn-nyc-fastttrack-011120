@@ -57,7 +57,10 @@
         puts "Please enter valid option from 1-9"
         user_input = gets.strip
       end
+      return board
     end
+    
+
 
     
 
